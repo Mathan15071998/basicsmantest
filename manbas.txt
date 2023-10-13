@@ -1,1 +1,103 @@
+                        Manual Testing Basics
+                    
+what is software?
+    It is a collection of programs written by developers to perform the task.
+
+    types of softwares:
+    1)Applications- it's the applications we use regularly
+        a)website apps like flipkart/amazon
+        b)deckstop and mobile apps.
+
+    2)System softwares- like OS / system drivers and servers which used to run the system.
+
+    3)Compilers/debuggers- softwares used by developers to write the code to perform oprations.
+
+What is software testing?
+    Software testing is a software development process where the quality of the software is tested. The reason behind this 
+act is to make sure we deliver quality software to the cxs.
+
+    Parameters for the quality software:
+    a)No/minimal bugs which not affects clients regular tasks.
+    b)meets all the requirements of the clients which specified in the Customer  Requirement Document.
+    c)Delivered on time within the specified budget.
+    d)user-friendly and maintenable(if any issue occured, it should be mostly solved from clients end.)
+
+Project vs product?
+
+    Project-Software specifically developed for the clients and/ or their customers(for the sole use of clients discretion)
+    Product- Software developed based on the demand from the market for people's use, this software can be utilized by anyone.
+
+Errors, bugs and failure of the software?
+
+    Errors- if bug found from developers end.
+    failure- if bug found while testing.
+    Software- if bug found from clients end.
+
+Why does the software has bugs?
+    1)lack of communication/no communication bw testers and developers.
+    2)lack of skilled testers.
+    3)software complexity(if software has end number of modules, then there are chances for bug when a/few modules missed from testing.)
+    3)when clients often change their requirments during the software development cycle.
+
+what is SDLC?
+    Software Development Life Cycle is a process used by IT industry to design, develop and test the software.
+
+    Types of model in SDLC:
+        1)Waterfall model:
+            In this model, first phase is requirement analysis(gathering the needs of clients), followed by designing the
+        software, developing and testing the software. Finally software will be deployed at cx's environment and then
+        maintenance(pushed for production.). This model is preferred for small projects.
+
+        Pros in this model:
+            1)since no requirement changes are allowed, less no of bugs/no bugs is the outcome.
+            2)Investment is less, 'cause we can hire the concerned department only when they needed.
+
+         Cons in this model:
+            1)Testing is carried only at the end of cycle, there is no verification/validation at the beginning/mid 
+            of the cycle.
+            2)Will take much time,'cause the work of another department will be started only after previous department
+             given their output.
+
+        2)Spiral Model:
+            The similar to the waterfall model, like first, requirement will be collected from cx.
+            then software prototype will be prepared, then real software will be developed only when clients satisfied within
+            the prototype.  Once cx agreed,software will be designed followed before development.
+            Finally software will be tested by testers and clients. Then it will enter into the production when clients agreed.
+            This model is preferred for product kind of softwares and when there is dependency for modules and versions, this
+            type is preferred.
+        Pros in this model:
+            1)Clients can change their requirements.
+            2)prototype is an advantage- the real software is prepared only when cx satisfied with the prototype.(so we can
+            take this as a verification/testing at early stage.)
+            3)Each time at the end of a software cycle, new version of the software is realeased.
+
+        Cons in this model:
+            1)No testing at all stages.
+            2)clients can change their needs only after the end of cycle, can't change during software development process.
+            3)same as the waterfall model, one department input become another department's output, so will take more time.
+
+        3)V or V-V model:
+            This model is different compared to other two, first BRS/CRS/URS is prepared by business people.
+            Followed by BRS(Non-technical doument contains client's needs.), SRS(Technical document which contains
+            needs of the client, which become input for developers,designers and testers input to start 
+            their work.) is prepared. After the SRS, HLD(Document about main modules for the software) and
+            LLD(Doucment about sub-modules for the softwre).
+            After HLD AND LLD- coding begins.(The process till now happen is known as Static testing and to make sure 
+            all the document work happen till now is correct and complete, this is ensured by reviews/walkthroughs/inspections.)
+
+            Once coding is completed- software will be entered into testing cycle, where dynamic testing begins.
+           White-box testing:
+            1)Unit testing- each modules will be tested by developers themselves.
+            2)Integration testing- communication bw each modules will be tested by developers.
+           Blackbox-testing
+            3)System testing- Testers actually entered for the first time here, they will test the actual software is allignment
+            with cx's need or not.
+            4)User Acceptance Testing: Finally, cx along with testers will test the actual software. Then enters into the production.
+
+        Pros in this model:
+            1)Conducting tests in all phases of a cycle will result in no/minimal bugs.
+        Cons:
+            1)Documentation is more,
+            2)Initial investement is more.
+            
 
