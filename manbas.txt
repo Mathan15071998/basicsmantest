@@ -25,7 +25,8 @@ act is to make sure we deliver quality software to the cxs.
 Project vs product?
 
     Project-Software specifically developed for the clients and/ or their customers(for the sole use of clients discretion)
-    Product- Software developed based on the demand from the market for people's use, this software can be utilized by anyone.
+    Product- Software developed based on the demand from the market for people's use, this software can be
+     utilized by anyone.
 
 Errors, bugs and failure of the software?
 
@@ -99,5 +100,35 @@ what is SDLC?
         Cons:
             1)Documentation is more,
             2)Initial investement is more.
+
+    What is review, walkthrough and inspection?
+        These are the techniques used in static tests to verify the document of the client's requirements.
+        Review- reviewing the BRS/SRS/HLD AND LLD documents to check their correctness and completeness.
+        Walkthrough- It's an informal review, does not have any minutes of meet.Author will read the doucment and discuss it 
+        with peers.
+        Inspection- Formal review, notified via any medium company choose. Minimun 3 people will be part of the meet,
+        they are author, writer and moderator.
+
+    QA/QC/QE?
+
+    QA VS QC:
+
+    QA - QA is process oriented who make sures everyone in the SDLC follows the process properly to prevent defects
+    in the software.QA for entire SDLC cycle.
+    QC-  QC is related to product oriented who tests the actual software to detect the bugs and report to the 
+    developer team to fix.QC for one part of SDLC testing cycle.
+    QE- A team only with automation testers who write the code to test the software.
+
+Levels of testing:
+1)Unit testing- BASIS PATH TESTING:
+    In basis path testing, developer will conduct test on each module to make sure all the internal logics in each program is 
+correct. Testers will call this as component testing when they test components in the UI.
+Control structure testing-a)condtional coverage- developers will test both the codition in a conditional statement.
+                          b)Loops coverage- here developer tests the loop statement, whether it is printing 
+from the correct and till the last number and print all the required numbers is tested. 
+                          c)Mutation testing- testing a code with multiple input.
+
+
+
             
 
