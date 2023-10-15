@@ -127,6 +127,37 @@ Control structure testing-a)condtional coverage- developers will test both the c
                           b)Loops coverage- here developer tests the loop statement, whether it is printing 
 from the correct and till the last number and print all the required numbers is tested. 
                           c)Mutation testing- testing a code with multiple input.
+                          
+2)Integration Testing:
+    communication between 2 or more modules is tested,
+    a)Incremental integration Testing: incrementally adding modules and communication is tested among those models.
+        i)top-down approach-incrementally adding modules and flow bw those models along with the new model added is the 
+    child of the previous/parent model.i,e-compose is the parent for items in sent. Sent is the parent of the deleted items.
+
+        ii)Bottom up approach-incrementally adding the modules and testing the data flow bw those models along with
+    ensure the new model added is the parent of the previous model.
+        i,e. deleted is the parent for sent items while sent items are the parent for composed items.
+        
+        sandwich approach-mix of the both previos models.
+
+    b)non-incremental approach- all the models will be tested in one go.
+    cons:
+    1)may miss some models data flow bw modules.
+    2)difficult to find which module has the bug.
+
+3)System testing-once testers are clear with the requirements of the cx's and the unit and integration is done, actual testers
+entered into testing the functionality of the software. 
+Testers will test the following things while testing:
+1)User interface testing(GUI)
+2)Functional testing
+3)Non-functional testing(Performance,security and etc.)
+4)Usablity testing(User help/user manuals)
+
+4)User acceptance testing- client's will test the software.
+Alpha testing- cx will test the software at the development environment.
+Beeta testing- cx will install the software at their environment and do some basic test and then software enters into the production.
+
+
 
 
 
