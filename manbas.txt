@@ -158,8 +158,98 @@ Alpha testing- cx will test the software at the development environment.
 Beeta testing- cx will install the software at their environment and do some basic test and then software enters into the production.
 
 
+System testing:
+
+    Once testers are cleared with the requirements, they enter into the sytem testing phase where there are 4 tests conducted.
+
+1)GUI testing:
+    User interface of the application is tested. Testers will prepare the GUI checklist and test according to it.
+    Testers will test the elements in the User face by giving different inputs and observe their behaviour.
+
+
+2)Usability Testing:
+    User friendly application.(Testers will go through the help menu/user manual of the software and ensure the document can be
+    understood by non-technical people.). User manual is prepared by the developers.
+
+3)Functional Testing: Functionality is nothing but how application and it's features behave. Testers will test whether 
+those features function according to the requirements or not.
+
+    a)Object properties testing: Characteristics of the object in the UI is tested here.
+    i,e. enabled/disabled, focused or not, visible or not and etc.
+    b)Database Testing/Backend testing: (Database is a storage area where all the datas are stored.)
+        As a tester, we will first focus on DML(Data Manipulation Language) operations. In this testing, testers will observe
+    how database is behaving when testers checking UI by inserting, updating ,deleting, submitting and selecting data at the UI level.
+    In database testing, testing the UI is blackbox, while checking the database comes under the whitebox. Combination of 
+    whitebox and blackbox testing known as greybox testing, database is an example of greybox.
+
+    Whitebox testing in database=In this testing , the tables will be also tested(Table and column level validation)-column type,column length,number of columns in the
+    table), relation bw tables(Normalization),functions, procedures,triggers, indexes,views and etc.
+
+    c)Error Handling Testing: Testers will verify how software is displaying msg when given invalid actions.
+    That error message should be readale by users/non-technical people.
+
+    d)Calculations and manipulation testing:
+        Calculations testing will be conducted by both valid and invalid data's. And calculations are mostly used in
+        financial applications like banking.
+
+    e)Links existence/Links execution(If web applications):
+    Must focus on:
+        Link position according to the document- Link existence
+        Link execution - whether it is navigating to proper page or not.
+
+        Types of link in web pages:
+        1)Internal link- navigate to another section in the same page.
+        2)External- navigate to another page.
+        3)Broken- Will not leave to any link.(For future use, if the client want them to navigate to other page/same page
+         in different section.)
+         In GUI- we verifying the color and position(also color change).
+    f)Cookies and session(If web application):
+
+        Cookies are temporary files created by browser while browsing the pages  through internet.
+    Whether web application saves/remembers cookies or not is knowm as testing.
+
+        Session- timeslot will be started at the server end to count inactiveness.(This is mostly used in banking applications
+    ,to ensure the security of the user, the server will close the application/end the session on behalf of the user.)
 
 
 
-            
+Non-functional testing: Once the functionality is stable, then non-functional testing will be conducted. This type of 
+testing done for cx's expection not for cx's requirement.
+
+    a)Performance testing: Specific team will be there to conduct the performance testing like security testing.
+    In performance testing, the speed of the application will be tested. Performance testing will be conducted in 3 ways.
+        Note:Performance testing will be conducted for only web applications.
+        i)Load-Incrementally/gradually increase the count of user's, on the other end the speed is tested while user count increase.
+        ii)Stress-Suddently increase/decrease the load and check the speed at the other end.
+        iii)Volume- How much data can be handled by web application.
+        
+
+    b)Security testing:The security of the application tested.
+
+    Authentication and Authorization is tested.
+
+    Authentication-The user is valid or not, if valid, the application should allow them to use the application and access
+    his certain data and functions.
+    Authorization or acccess control-Permission of the valid user is tested.
+
+    c)Recovery Testing- Data recovery after delete/lose, whether the application can recover that data or not.
+    Recovery mechanism is tested if exist.
+
+    d)Compatablity testing- the software working on differnt interfaces.
+
+        three types of compatablity:
+        i)Forward compatablity- If I update my app to new version, it should compatable with my existing device instead it
+        should not demand for a new device.
+        ii)Backward compatablity- If I update my app to new version on my existing device, it should install and work 
+        perfectly though I have upgraded device in the market, this is called backward compatablity.
+        iii)Hardware compatablity/configuration testing-software should be installed and worked on multiple kind of hardware environment.
+    
+    e)Installation testing- we have to just test the installation testing and while installing, screens are easy to understand or not.
+    Similary uninstallation process- after installation, whether all file belonged to the software removed or not
+
+    f)Sanitation/Garbage testing-finding and reporting the extra functionalities/features in the application to the developer
+    and remove is known as sanitation or garbage testing.
+    Those extra functionalities will be considered as a bug.
+    
+
 
