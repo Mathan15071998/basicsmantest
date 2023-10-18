@@ -252,4 +252,53 @@ testing done for cx's expection not for cx's requirement.
     Those extra functionalities will be considered as a bug.
     
 
+Software Testing Terminologies:
+    Regression Testing: After the developer fixed the bug in a module, there should not  be any impace in the data flow bw other modules.
+Testing about this impact is known as regression testing.
+    a)Unit Regression Testing:
+        Testing only the changes/modifications done by the developer.
+    b)Reasonal Regression Testing:
+        Testing the modified module along with impacted modules.
+        Impact analysis meeting conducts to identify impacted modules with QA &Tester.
+    c)Full Regression:
+        Testing the main feature & remaining part of the application.
+        i,e. Developer  might make the changes to almost in entire application, so we need to conduct full testing.
 
+    Re-Testing:
+        If the tester validating/check for the bug reported earlier fixed or not is known as Re-Testing.
+        Here only testing the reported bug or not while regression testing may require to test the impacted modules.
+        
+    Smoke and Sanity Testing:
+        Note:build means developer team will give a piece of software which contains some features.
+        3rd image contains smoke and sanity testing details. Remaining tests will start only after the bill passed smoke and sanity.
+    Exploratory Testing:
+        This type of testing is conducted by the testers withour any requirement document, this is done like exploring the 
+    application like a cx. Software is ready but documentation is not complete.
+    Con: There might be chance to misunderstood a feature as bug and vice versa.
+         Will take much time.
+     
+     This testing adavanatage is harnessed only by the experienced testers who can complete the work quick and in a good way.
+     
+     AD Hoc testing:
+        This is an informal testing, can be conducted anytime to check the entire part of the appkication without any doucmentation work and
+    test cases.Here the application will be tested randomly. Tester should have knowledge in the application.
+
+    Monkey/Gorila Testing:
+        Without any prior knowledge of application, even without documentation and test cases, testing the application is
+    known as Monkey testing.Also informal.
+
+        Suitable for gaming applications.
+
+    Positive Testing:
+        The application is tested by giving positive inputs(Valid) to the application to check whether the application is 
+    behaving as expected or not.
+    Negative Testing: Testing the application with negative inputs.
+    i,e= Enter only numbers:182938(+ive)
+        Enter only numbers:abcd(-ive)
+
+    End to End Testing:
+        Testing the overall functionality of the application including the data integration  among all modules is called end
+    end testing.
+    ie. Login- Add cx- Edit cx- Delete cx- Logout(So every flow/Major functionality of the application is covered of the application.)
+
+    Note:Globalization testing also known as I18N testing.
