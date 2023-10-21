@@ -150,7 +150,7 @@ entered into testing the functionality of the software.
 Testers will test the following things while testing:
 1)User interface testing(GUI)
 2)Functional testing
-3)Non-functional testing(Performance,security and etc.)
+3)Non-functional testing(Perform-ance,security and etc.)
 4)Usablity testing(User help/user manuals)
 
 4)User acceptance testing- client's will test the software.
@@ -302,3 +302,41 @@ Testing about this impact is known as regression testing.
     ie. Login- Add cx- Edit cx- Delete cx- Logout(So every flow/Major functionality of the application is covered of the application.)
 
     Note:Globalization testing also known as I18N testing.
+
+
+Test Data Techniques/Test case design Techniques:
+1)Used to prepare data for testing.
+2)Coverage(whatever data we prepared by using which we can cover all the test scenarios).
+
+    Types in test design techniques/preparing the test data:
+        1)Equilence Class Partioning(ECP):(Here we will focus on values whether it is alphabets, numberics or special characters.)
+            We will classify one huge data into multiple classes and test randomly.For an example,
+                there is a textbox which will allow numbers from one to 10, then we don't need to test all the numbers
+            from 0 to 100, instead, we take a number from -10 to 0(which is actually invalid data) and then we take one number
+            from each 10 and test till 100-110. This partion technique reduces test data to test so it saves time.
+
+        2)  Boundary Value Analysis(BVA):
+             I have to enter input for age bw 18-30:
+                We will only here test the boundaries, for an example, 18,30,(18-1) and (18+1), (30-1) and (30+1).
+                here along with 2 boundaries, min-1 and +1 and max-1,+1 is tested.
+
+        Input domain testing: will be conducted with ECP and BVA in the input field boxes/ textbox.(In this method, the value we
+        are entering in the field box  will be verified )
+
+        Decision table/ also known as cause-effect table:
+            This technique is used if we have more number of condions and corresponding actions.
+
+            For an example, take an example of sending money online to an account which is already added and approved.
+            Here are the conditions to send money online:
+            a)Account is approved,
+            b)OTP is matching,
+            c)Sufficient money in the account.
+
+            Here are the actions to be performed:
+            a)Transfer Money.
+            b)Show as insufficient message
+            c)Block the transaction incase of there is any suspicious activity found.
+        
+        4)State Transition:
+            
+
