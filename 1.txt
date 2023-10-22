@@ -338,5 +338,82 @@ Test Data Techniques/Test case design Techniques:
             c)Block the transaction incase of there is any suspicious activity found.
         
         4)State Transition:
+            In state transition technique changes in input conditions change the state of the application.(6th picture is an
+            example.)
+            This technique allows the tester to test the behaviour of an AUT. Testers can perform this actions by entering 
+            different input conditions in a sequence. In this technique, testing team provides both positive as well as negative
+            input test values for evaluating the system behaviour.
+            (Refer the 6th picture.)
+
+        5)Error guessing:
+             It's a minor technique, used to track the bug by the guessing of testers analytical skills.
+             for an example, experienced testers would find the bug just by using the appkication.
+
             
+         Software Testing Life Cycle(STLC)- This is part of SDLC.
+            1)Understanding requirement
+            2)Test planning
+            3)Test design
+            4)Test Execution
+            5)Track and report the bugs and report it to the developer team.
+            6)Test closure.
+
+
+        Terminologies: Use cases- describes the requirement in diagram format which will be easy to understood.
+        test scenarios- what are the areas to be tested is comes under test scenerios. For example, login is one area, 
+        if both user name and password correct then allow login, this is one scenario, like this we can create multiple scenario
+        of test cases.
+        test case- step by step procedure we have to follow to test the application.
+        we can create multiple test cases for one scenario.
+        Peer review- whatever test cases completed is completed will be discussed with team so we can make sure, we didn't 
+        miss any testcases.
+        Tracablity Matrix(Mapping document)- mapping bw requirement and testcases. This will say what are the test cases I covered and I not if any.
+        Sign-off:
+            Developer team, managers will give sign off to kick start the exection of test cases.
+
+        smoke testcases>sanitary>functionality
+
+        Test Log: Testers will keep this document about the status of the executed testcases, how many cases are passed and 
+        how many failed.
+
+        Identifying and reporting bugs to the developer team is also comes under test execution.
+
+
+         p1 bugs- priority 1 bug which has to be fixed immediately.
+         P2- Major
+         p3- Minor.
+         
+
+
+         Terminologies in Detail:
+         1)Suspension and resumption criteria:
+            We will stop testing when the application is broken and resume after the recovery/got a new bill from the
+            developer team.
+        Use cases will be created by product managers and others not by testers.
+
+        Test suite- group of test cases
+        for an example, functionalities will be part of test suite 1
+        regression test cases are part of test suite 2
+        smoke testing is 3 suite..
+
+
+        
+    Requirement Traceblity Matrix:
+        By this we can ensure, all the requirement's test cases are completed. The main purpose of the RTM is to see that all the
+        test cases are completed so no test cases for requirement is left over.
+
+        RTM parameters include:1)Requirement id 2)requirement description  3)testcase id 
+
+    Test Environment/Test bed:
+        We should make preparation to setup software and hardware which should be same as cx's using environment(cx software
+        and hardware, including the database.)- Simply understand the cx's environmet and recreate it and then start testing.
+
+    Bug tracking tools vs Test management tools:
+    Bug tracking tools are only to report bugs while test management tools do not only bug tracking but also entire
+    test management cycle will be updated in this tool of test management. Test management tools examples are JIRA and QUALITY CENTER.
+    Bug tracking tools are CLEAR QUEST, BUG JILLA and DEV TRACK.
+
+    
+
+
 
