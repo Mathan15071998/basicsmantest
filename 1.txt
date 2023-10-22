@@ -413,7 +413,36 @@ Test Data Techniques/Test case design Techniques:
     test management cycle will be updated in this tool of test management. Test management tools examples are JIRA and QUALITY CENTER.
     Bug tracking tools are CLEAR QUEST, BUG JILLA and DEV TRACK.
 
+    Tester will assign severity and priority to a bug. Priority can be changed by test managers, business people and 
+    even by developers sometimes but severity could be changed only by the tester.
+
+    Defect Resolution:
+        Developer will update his opinion on bug raised by the devloper.
+
+        IF bug resolution says it's duplicate- then this bug already raised.
+        if enchancement then it's not a bug instead a feature.
+        if need more information then we need to give screenshots and log file etc about the bug.
+        if not reproducable then it means bug only found at testers environment not at developer environment.
+        if accept- then developer accepted it as a bug.
+        if reject- then developer rejected to consider it as a bug.
+        if fixed- then developer fixed the bug.
+        if as assigned- developer team will report it should work in that way only, so it is not a bug.
+        if deferred then the bug is new so developer team will put it in the queue.
+        if assigned means the developer assigned to fix the bug.
+        if open- then developer start to fixing the bug.
+        if the bug again not fixed we will pass it to the developer to fix it again, the status will go reopen.
+        if bug fixed and passed then status will go closure.
+        enchancement means it's a extra feature which clients wish to implement in the near future.
     
+    Defect/Bug Life Cycle:
+        This will always tell us what is the status of the bug.
+
+    Reasons behind developer rejecting a raised bug:
+    enchancement- need more info-not reproducable-as designed.
+    
+    Closure- Final phase of testing.
+    
+
 
 
 
