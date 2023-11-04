@@ -31,8 +31,8 @@ Project vs product?
 Errors, bugs and failure of the software?
 
     Errors- if bug found from developers end.
-    failure- if bug found while testing.
-    Software- if bug found from clients end.
+    bug- if bug found while testing.
+    failure- if bug found from clients end.
 
 Why does the software has bugs?
     1)lack of communication/no communication bw testers and developers.
@@ -89,7 +89,8 @@ what is SDLC?
             Once coding is completed- software will be entered into testing cycle, where dynamic testing begins.
            White-box testing:
             1)Unit testing- each modules will be tested by developers themselves.
-            2)Integration testing- communication bw each modules will be tested by developers.
+            2)Integration testing- c
+            ommunication bw each modules will be tested by developers.
            Blackbox-testing
             3)System testing- Testers actually entered for the first time here, they will test the actual software is allignment
             with cx's need or not.
